@@ -14,7 +14,7 @@
 
 ## About
 
-I'm interested in programming and want to learn Javascript.
+I'm interested in programming and want to learn JavaScript.
 
 ## Skills
 
