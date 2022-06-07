@@ -10,6 +10,8 @@
 
 **Discord**: electrobob#1822
 
+**GitHub**: e1ectrobob
+
 ## About
 
 I'm interested in programming and want to learn Javascript.
@@ -20,7 +22,9 @@ I'm interested in programming and want to learn Javascript.
 
 - JavaScript (beginner)
 
-- Figma, Photoshop, Git
+- Figma, Photoshop
+
+- VSCode, Git
 
 ## Code example
 
