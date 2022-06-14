@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, ul {
   margin: 0;
   padding: 0;
 }
@@ -10,29 +10,29 @@ body {
 .container {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   background-color: #fcfff7;
   box-shadow: 0 0 5px 5px lightgrey;
 }
 
 .main-nav {
-  background-color: #B7E2D1;
-  display: flex;
-  justify-content: center;
+  background-color: #b7e2d1;
 }
 
-.nav-list {
-  display: flex;
+.list {
   list-style-type: none;
 }
 
-.list-item {
+.nav-list {
   padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content:space-evenly;
 }
 
 .list-link {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 24px;
   color: #000000;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .avatar-container {
-margin: 0 200px 0 0;
+margin: 0 105px 0 0;
 }
 
 .avatar-image {
@@ -57,5 +57,82 @@ margin: 0 200px 0 0;
   font-size: 55px;
   font-family: Arial, Helvetica, sans-serif;
   
+}
+
+.main-content {
+  padding: 0 50px;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.heading {
+  text-align: center;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts-list {
+list-style: none;
+font-size: 18px;
+}
+
+.contacts-item {
+  padding: 10px 0 0 40px;
+}
+
+.item-mail {
+  background: url(assets/img/email.svg)left center/ 30px no-repeat;
+}
+
+.item-tg {
+  background: url(assets/img/telegram.svg)left center/ 30px no-repeat;
+}
+
+.item-dis {
+  background: url(assets/img/discord.svg)left center/ 30px no-repeat;
+}
+
+.item-git {
+  background: url(assets/img/git.svg)left center/ 30px no-repeat;
+}
+
+.code {
+  background-color: #f6f6f6;
+  padding: 30px;
+}
+
+.bottom-line {
+  padding-bottom: 50px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #b7e2d1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 50px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 21px;
+  color: #000000;
+}
+
+.footer-link:hover {
+  color: #624444;
+}
+
+.footer-date {
+  font-size: 24px;
+  user-select: none;
 }
 

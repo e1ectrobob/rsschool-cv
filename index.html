@@ -11,24 +11,24 @@
     <div class="container">
       <header class="header">
         <nav class="main-nav">
-          <ul class="nav-list">
+          <ul class="nav-list list">
             <li class="list-item">
-              <a class="list-link" href="">About</a>
+              <a class="list-link" href="#about">About</a>
             </li>
             <li class="list-item">
-              <a class="list-link" href="">Contancts</a>
+              <a class="list-link" href="#contacts">Contacts</a>
             </li>
             <li class="list-item">
-              <a class="list-link" href="">Skills</a>
+              <a class="list-link" href="#skills">Skills</a>
             </li>
             <li class="list-item">
-              <a class="list-link" href="">Code example</a>
+              <a class="list-link" href="#example">Code example</a>
             </li>
             <li class="list-item">
-              <a class="list-link" href="">Education</a>
+              <a class="list-link" href="#education">Education</a>
             </li>
             <li class="list-item">
-              <a class="list-link" href="">Language</a>
+              <a class="list-link" href="#language">Language</a>
             </li>
           </ul>
         </nav>
@@ -42,8 +42,61 @@
           </div>
         </div>
       </header>
-      <main></main>
-      <footer></footer>
+      <hr>
+      <main class="main-content">
+        <h2 class="heading" id="about">About me</h2>
+        <p class="info-text">I have always been interested in computers and technology, I want to learn JavaScript and become a successful programmer.</p>  
+        <section class="info-row">
+          <div class="contacts">
+            <h2 id="contacts">Contacts</h2>
+            <ul class="contacts-list list">
+              <li class="contacts-item item-mail">bvl190@gmail.com</li>
+              <li class="contacts-item item-tg">@electrobob</li>
+              <li class="contacts-item item-dis">electrobob#1822</li>
+              <li class="contacts-item item-git">e1ectrobob</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h2 id="skills">Skills</h2>
+            <ul class="list">
+              <li>- HTML, CSS</li>
+              <li>- JavaScript (beginner)</li>
+              <li>- Figma, Photoshop</li>
+              <li>- VSCode, Git</li>
+            </ul>
+          </div>
+        </section>
+        <div class="code-wrap">
+          <h2 class="heading" id="example">Code example</h2>
+          <pre class="code">
+            <code>let sumPrime = 0;
+
+            nextNum: for (let num = 2; num &lt;= 250; num++) {
+              for (let j = 2; j &lt; num; j++) {
+                if (num % j === 0) continue nextNum;
+              }
+              sumPrime += num;
+              console.log(`Prime number: ${num}; Sum: ${sumPrime}`);
+            }</code>
+          </pre>
+        </div>
+        <section class="info-row bottom-line">
+          <div class="education">
+            <h2 id="education">Education</h2>
+            <p>Ukrainian National University - Bachelor of Sociology</p>
+          </div>
+          <div class="language">
+            <h2 id="language">Language</h2>
+            <p>English B2 (Upper Intermediate)</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <a class="footer-link" href="https://github.com/e1ectrobob">My GitHub</a>
+        <a class="footer-link" href="https://e1ectrobob.github.io/rsschool-cv/cv">My other works</a>
+        <span class="footer-date">2022</span>
+        <a href="https://rs.school/js/"><img class="footer-logo" src="assets/img/rs_school_js.svg" alt="rsschool"></a>
+      </footer>
     </div>
   </body>
 </html>
